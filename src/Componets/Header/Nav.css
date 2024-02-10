@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&display=swap');
+.nav {
+    display: inline;
+    margin-top: 10px; 
+
+}
+.nav1{
+    background-color:#f3faf5;
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    width: 100%;
+    align-items: center;
+    
+}
+.nav2 ul li a{
+    text-decoration: none;
+    color: black;
+}
+.nav2 ul {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    gap: 15px;
+   
+}
+.nav3 {
+    display: flex;
+    gap: 15px;
+    margin-right: 40px;
+   
+}
+.nav3 a{
+    text-decoration: none;
+    color: black;
+}
+.nav-1{
+    display: flex;
+    justify-content: space-around;
+    background-color: #34A853;
+    align-items: center;
+}
+.nav4{
+    display: flex;
+    gap: 10px;
+}
+.nav4 img{
+    margin-top: 10px;
+    height: 50px;
+    width: 80px;
+    align-items: center;
+}
+.nav4 h1{
+    font-family: 'Merriweather', serif;
+    color: #eefff3;  
+}
+.nav5{
+    display: flex;
+    gap: 2px;
+    margin-right: 20px;
+}
+.nav5 input{
+    height: 40px;
+    width: 300px;
+    outline: none;
+    border-radius: 5px;
+    border: solid 2px rgb(138, 137, 136);
+    font-family: 'Lato', sans-serif; 
+    color: rgb(116, 116, 116);
+}
+.nav5 button{
+    width: 80px;
+    border-radius: 5px;
+    border: solid rgb(138, 137, 136) 2px ;
+    cursor: pointer;  
+}
+.nav6 {
+    display: flex;
+    gap: 30px;
+}
+.nav6 i{
+    color: white;
+    cursor: pointer;
+}
+.off-canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-out;
+  }
+  
+  .off-canvas--open {
+    transform: translateX(0);
+  }
+  
+  .off-canvas__overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+ 
+  }
+  
+  .off-canvas__inner {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 300px;
+    height: 100%;
+    background-color: #fff;
+    padding: 20px;
+    z-index: 1000;
+  }
+  
+  .off-canvas__close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .profile {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .pro {
+    display: inline-block;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  

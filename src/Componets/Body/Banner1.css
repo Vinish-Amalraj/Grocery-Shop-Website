@@ -1,0 +1,38 @@
+.banner{
+    display: flex;
+    justify-content: space-around;
+}
+.b1 h2{
+    color: forestgreen;
+    font-size: 50px;
+}
+.b1 h1{
+    font-size: 60px;
+}
+.b1 button{
+    display: flex;
+    height: 40px;
+    width: 150px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: large;
+    background-color: white;
+    color: #34A853;
+    border-radius: 3px;
+    border: solid 2px #34A853;
+    transition: all 0.5s linear;
+    cursor: pointer;
+    
+}
+.b1 button:hover{
+    background-color: #34A853;
+    color: white;
+   
+}
+    
+
+.b2 img{
+    height: 500px;
+    width: 600px;
+}
